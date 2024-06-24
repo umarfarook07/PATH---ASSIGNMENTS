@@ -1,0 +1,21 @@
+.user-section h1 {
+    color: red;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    font-size: 24px;
+}
+.user-details h2 {
+    color: orange;
+    font-size: 22px;
+}
+.user-details {
+    font-size: 18px;
+    font-weight: bold;
+}
+.user-pic{
+    padding: 12px;
+}
+.user-pic img {
+    height: 200px;
+    border-radius: 50%;
+}
