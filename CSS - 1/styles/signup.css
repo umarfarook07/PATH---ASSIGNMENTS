@@ -1,11 +1,12 @@
-
 select {
-    
     background-color: white;
     padding: 10px 40px 10px 10px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
+    height: 40px !important;
+    margin-left: -90px !important;
+    width: 410px !important;
 }
 
 .membership-container {
@@ -21,11 +22,12 @@ select {
     align-items: center;
 }
 .options-div {
-    width: 50%;
+    width: 60%;
 }
 
 .option{
-    padding: 8px 36px;
+    padding: 8px 50px;
     border-radius: 5px;
     border: 1px solid black;
 }
+

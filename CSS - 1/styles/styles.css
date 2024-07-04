@@ -24,21 +24,14 @@ a{
     color: white;
 }
 
-ul, ol {
-    list-style: none;
-}
 
 .header-logo {
-    position: fixed;
     background-color: rgb(249, 246, 241);     
-    top: 0;
-    left: 0;
-    right: 0;
     border-bottom: 2px solid grey;
     width: 100%;
-    z-index: 1000;
     padding: 20px;
 }
+
 
 .menu-nav a{
     margin: 5px;
@@ -49,36 +42,21 @@ ul, ol {
     transition: all ease-in-out 0.15s;
 }
 .menu-nav a:hover{
-    color: red;
     transform: scale(1.1);
     background-color: rgb(87, 86, 86);
     border-radius: 5px;
 }
+.menu-nav a.current {
+    color: rgb(30, 136, 229); 
+    background-color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
 
 .menu-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px;
-    margin-top: 66px;
+    padding: 25px 0;
     font-size: 18px;
     background-color: rgb(71, 71, 71);
-    overflow-x: scroll;
-}
-.menu-nav::-webkit-scrollbar {
-    height: 8px; 
-}
-
-.menu-nav::-webkit-scrollbar-thumb {
-    background: #888; 
-}
-
-.menu-nav::-webkit-scrollbar-track {
-    background: transparent;
-}
-.landing-image{
-    /* padding: 120px; */
-    /* width: 70%; */
 }
 .landing-image img{
     width: 100%;
